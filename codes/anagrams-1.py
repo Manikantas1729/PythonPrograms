@@ -5,7 +5,6 @@
 
 final_dict = {}
 
-
 def update_dict(newstring):
     sorted_string = ''.join(sorted(list(newstring)))
     #take sorted string as key of  final_dict
