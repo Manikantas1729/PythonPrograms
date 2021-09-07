@@ -7,7 +7,7 @@ final_dict = {}
 
 def update_dict(newstring):
     sorted_string = ''.join(sorted(list(newstring)))
-    #take sorted string as key of  final_dict
+    # Take sorted string as key of final_dict
     if sorted_string in final_dict:
         final_dict[sorted_string].append(newstring)
     else:
